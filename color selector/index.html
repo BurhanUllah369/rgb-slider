@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Color Selector</title>
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <label for="red">R</label>
+            <input type="range" min="0" max="255" value="0" id="red">
+        </div>
+        <div class="container">
+            <label for="green">G</label>
+            <input type="range" min="0" max="255" value="0" id="green">
+        </div>
+        <div class="container">
+            <label for="blue">B</label>
+            <input type="range" min="0" max="255" value="0" id="blue">
+        </div>
+        <div class="value">
+            <p>rgb(0, 0, 0)</p>
+            <button>Copy Color Code</button>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
